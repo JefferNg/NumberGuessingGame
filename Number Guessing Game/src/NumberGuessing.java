@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//sample text
+//text sample
 public class NumberGuessing
 	{
 		static Scanner userInput = new Scanner(System.in);	
