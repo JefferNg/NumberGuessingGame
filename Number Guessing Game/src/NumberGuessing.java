@@ -20,16 +20,18 @@ public class NumberGuessing
 				
 				
 				greetUser();
-				while(playing)
+					do
 					{
 					chooseDifficulty();
 					generateNumber();
-					while(guessing)
+						do
 						{
 						takeUserGuessing();
 						}
+						while(guessing);
 					playAgain();
 					}
+					while(playing);
 				System.out.println("Alright then, good day.");
 
 			}
